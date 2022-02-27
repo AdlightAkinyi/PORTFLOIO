@@ -1,6 +1,10 @@
 h1 {
-  color: rgb(255, 0, 157);
+  color: rgb(0, 255, 76);
 }
 body {
   background-color: blueviolet
-<h1>
+}
+h2 {
+  color: green;
+  font-style: italic;
+  text-align: center
