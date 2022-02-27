@@ -8,6 +8,7 @@ By **{Adlight akinyi}**
 I study software development 
 Am looking forward to be the best software developer 
 You can reach me through my email-adlightakinyi1@gmail.com
+In addition you can reach me through my contact-0797523148
 
 {This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
 ## Setup/Installation Requirements
