@@ -5,6 +5,10 @@ Brief description of application}, {Date of current version}
 #### 
 By **{Adlight akinyi}**
 ## Description
+I study software development 
+Am looking forward to be the best software developer 
+You can reach me through my email-adlightakinyi1@gmail.com
+
 {This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
 ## Setup/Installation Requirements
 * This is a great place
