@@ -33,5 +33,6 @@ adlight akinyi1@gmail.com
 ### License
 *{Determine the license under which this application can be used.  See below for more details on licensing.}*
 mit licence
+
 Copyright (c) {year} **{List of contributors or company name}**
 Adlight Akinyi
