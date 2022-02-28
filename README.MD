@@ -25,6 +25,7 @@ Am a starter in software development
 
 {Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
 ## Support and contact details
+
 adlight akinyi1@gmail.com
 0797523148
 
