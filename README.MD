@@ -1,5 +1,5 @@
 # 
-my portfolio
+My Portfolio
 
 # Description
 
@@ -17,7 +17,7 @@ CSS
 
 Html
 
-#Support nd contct detils
+# Support nd contct detils
 
 adlight kinyi1@gmil.com
 
