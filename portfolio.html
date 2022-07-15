@@ -14,115 +14,118 @@
 </head>
 
 <body>
-  <div class="container ">
-    <div class="firstPage  ">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">contact</a>
-            </li>
+  <div class="container-fluid">
+    <div class="container  " style="background-color: #f5f5f5;">
+      <div class="firstPage  " style="background-color: #f5f5f5;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: blue;">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> 
+          
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact</a>
+              </li>
 
-          </ul>
-        </div>
-      </nav>
-      <div class="row  aboutmepage nametext" id="firstpage">
-        <div class="col-md-8 ">
-        
-          <div class="landingpage align-middle" id="content">
-            <p class="name h1 ">
-              Adlight Akinyi
-            </p>
-            <p class="h3 career">
-              Software Developer
-            </p>
-            <p class="tagline">
-              Based in Nairobi Kenya.
-              <br> I am passionate about technology and leveraging on software development to create
-              scalable solutions.
-            </p>
+            </ul>
           </div>
+        </nav>
+        <div class="row  aboutmepage nametext" id="firstpage">
+          <div class="col-md-8 ">
 
-        </div>
-
-        <div class="col-md-3 col-sm-6 landingphoto">
-          <img src="./assets/Group 2.svg" alt="">
-        </div>
-      </div>
-      <a href="#aboutme" class="text-decoration-none">
-        <div class="btn-next my-3"> <i class="fa fa-angle-down "></i>
-
-        </div>
-      </a>
-    </div>
-
-    <div class="pagetwo my-5">
-      <p class="text-center h2 aboutUs my-5 " id="aboutme">
-        About Me
-      </p>
-      <div class="row">
-        <div class="col-md-6">
-
-
-          <span class="shape">
-            <img src="./assets/bitmoji2.svg" alt="">
-          </span>
-
-        </div>
-        <div class="col-md-6 aboutme me">
-          <p class="aboutmetext">
-            Am a software development student.
-
-            I decided to take up Programming in Moringa to start a new career in software development .This is also is
-            coupled with developing my softskills
-            and my ability to work with teams.
-            </p>
-          <div class="row socials">
-            <div class="col-md-4 col-sm-2">
-              <img src="./assets/linkedin.svg" id="linkedin" onclick="linkedinEvent" alt="">
+            <div class="landingpage align-middle" id="content">
+              <p class="name h1 ">
+                Adlight Akinyi
+              </p>
+              <p class="h3 career">
+                Software Developer
+              </p>
+              <p class="tagline">
+                Based in Nairobi Kenya.
+                <br> I am passionate about technology and leveraging on software development to create
+                scalable solutions.
+              </p>
             </div>
 
-            <div class="col-md-4 col-sm-2">
-              <img src="./assets/github.svg" alt="" id="github" onclick='githubEvent'>
+          </div>
+
+          <div class="col-md-3 col-sm-6 landingphoto">
+            <img src="./assets/Group 2.svg" alt="">
+          </div>
+        </div>
+        <a href="#aboutme" class="text-decoration-none">
+          <div class="btn-next my-3"> <i class="fa fa-angle-down "></i>
+
+          </div>
+        </a>
+      </div>
+
+      <div class="pagetwo my-5">
+        <p class="text-center h2 aboutUs my-5 " id="aboutme">
+          About Me
+        </p>
+        <div class="row">
+          <div class="col-md-6">
+
+
+            <span class="shape">
+              <img src="./assets/bitmoji2.svg" alt="">
+            </span>
+
+          </div>
+          <div class="col-md-6 aboutme me">
+            <p class="aboutmetext">
+              Am a software development student.
+
+              I decided to take up Programming in Moringa to start a new career in software development .This is also is
+              coupled with developing my softskills
+              and my ability to work with teams.
+            </p>
+            <div class="row socials">
+              <div class="col-md-4 col-sm-2">
+                <img src="./assets/linkedin.svg" id="linkedin" onclick="linkedinEvent" alt="">
+              </div>
+
+              <div class="col-md-4 col-sm-2">
+                <img src="./assets/github.svg" alt="" id="github" onclick='githubEvent'>
+              </div>
             </div>
           </div>
         </div>
+        <div class="row contact mx-5 my-5">
+          <div class="col-md-6 py-3">
+            <span class="shape2">
+
+
+
+            </span>
+          </div>
+          <div class="col-md-6 py-3">
+            <form class="formtext projecttext">
+              <input class="my-5 contactinput" type="text" placeholder="Enter your Full name">
+              <input class=" contactinput " type="tel" placeholder="Enter your Phone Number ">
+              <input class="my-5 contactinput " type="email" placeholder="Enter your Email ">
+              <button class=" btn btn-primary contactbtn">Contact Me</button>
+
+            </form>
+          </div>
+        </div>
+        <a href="#" class="text-decoration-none">
+          <div class="btn-next my-3"> <i class="fa fa-angle-up "></i>
+
+          </div>
+        </a>
+
       </div>
-      <div class="row contact mx-5 my-5">
-        <div class="col-md-6 py-3">
-          <span class="shape2">
-            
-
-
-          </span>
-        </div>
-        <div class="col-md-6 py-3">
-          <form class="formtext projecttext">
-            <input class="my-5 contactinput" type="text" placeholder="Enter your Full name">
-            <input class=" contactinput " type="tel" placeholder="Enter your Phone Number ">
-            <input class="my-5 contactinput " type="email" placeholder="Enter your Email ">
-            <button class=" btn btn-primary contactbtn">Contact Me</button>
-
-          </form>
-        </div>
-      </div>
-      <a href="#" class="text-decoration-none">
-        <div class="btn-next my-3"> <i class="fa fa-angle-up "></i>
-
-        </div>
-      </a>
-
-      
 </body>
 
 </html>
