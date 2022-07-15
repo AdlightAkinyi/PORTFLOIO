@@ -1,4 +1,3 @@
-# 
 My Portfolio
 
 # Description
@@ -19,7 +18,7 @@ Html
 
 # Support nd contct detils
 
-adlight kinyi1@gmil.com
+adlightakinyi1@gmil.com
 
 
 # License
